@@ -1,0 +1,12 @@
+@mixin dimension-img ($parameter) {
+  width: $parameter;
+  margin: $marginimg;
+}
+
+@mixin m-img ($parameter) {
+  margin: $parameter;
+}
+
+@mixin bg ($parameter){
+  background-color: $parameter;
+}

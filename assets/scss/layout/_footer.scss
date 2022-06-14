@@ -1,0 +1,11 @@
+.footer {
+  &--bg {
+    @include bg($color-gray);
+  }
+
+  &__logo{
+    @include dimension-img (10%)
+  }
+  @extend %orientation;
+  @extend %size-second;
+}

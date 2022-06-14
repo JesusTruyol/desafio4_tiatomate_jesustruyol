@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.footer, .section, .section__question, .section__information, .section__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__question, .section__title {
+  width: 100%;
+  height: 67vw;
+}
+
+.footer, .section__question, .section__title--h {
+  height: 17vw;
+}
+
+.section__question__btn, .section__question__title, .section__information__title {
+  font-weight: 700;
+  margin: 1vw;
+}
+
+.section__information__text {
+  font-weight: 400;
+  font-size: 1.6vw;
+  width: 50%;
+  height: 100%;
+  margin: 10px;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+.header__logo {
+  width: 15%;
+  margin: 2vw;
+  margin: 9px;
+}
+
+.section__title {
+  color: #FAFAFA;
+}
+.section__title--bg {
+  background-color: #E56353;
+}
+.section__title__textmain {
+  font-weight: 200;
+  font-size: 8vw;
+}
+.section__title__text {
+  font-weight: 700;
+  font-size: 7vw;
+}
+.section__title__second {
+  font-weight: 700;
+  font-size: 7vw;
+}
+.section__information {
+  padding: 30px;
+}
+.section__information--bg {
+  background-color: #91918D;
+}
+.section__information__imgtomate {
+  width: 70%;
+  margin: 2vw;
+}
+.section__information__imgface {
+  width: 30%;
+  margin: 2vw;
+}
+.section__information__title {
+  color: #FAFAFA;
+  font-size: 3vw;
+}
+.section__information__title--color {
+  color: #91918D;
+}
+.section__information__text {
+  color: #FAFAFA;
+}
+.section__information__text--color {
+  color: #91918D;
+}
+.section__question--bg {
+  background-color: #E56353;
+}
+.section__question__title {
+  color: #FAFAFA;
+  font-size: 3vw;
+}
+.section__question__btn {
+  width: 20vw;
+  font-size: 1.8vw;
+  color: #91918D;
+}
+
+.footer--bg {
+  background-color: #91918D;
+}
+.footer__logo {
+  width: 10%;
+  margin: 2vw;
+}
+
+/*# sourceMappingURL=style.css.map */

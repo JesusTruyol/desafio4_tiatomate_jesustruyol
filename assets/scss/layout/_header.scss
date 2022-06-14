@@ -1,0 +1,7 @@
+.header{
+  &__logo{
+    @include dimension-img (15%);
+
+    @include m-img (9px);
+  }
+}

@@ -1,0 +1,85 @@
+.section {
+  // Title
+  &__title {
+    @extend %orientation;
+    @extend %size;
+    color: $color-body;
+    &--bg {
+      @include bg($color-primary);
+    }
+    &--h{
+      @extend %size-second;
+    }
+    
+    &__textmain{
+      font-weight: $extralight;
+      font-size: 8vw;
+    }
+    &__text{
+      font-weight: $bold;
+      font-size: 7vw;
+    }
+    &__second{
+      font-weight: $bold;
+      font-size: 7vw;
+    }
+  }
+
+  // Information
+  &__information {
+    &--bg{
+      @include bg($color-gray);
+    }
+    &__imgtomate {
+      @include dimension-img($imgtomate);
+    }
+
+    &__imgface {
+      @include dimension-img($imgface);
+    }
+
+    &__title{
+      @extend %title;
+      color: $color-body;
+      font-size: 3vw;
+      &--color{
+        color: $color-gray ;
+      }
+
+    }
+    &__text{
+      @extend %text;
+      color: $color-body;
+      &--color{
+        color: $color-gray ;
+      }
+    }
+
+    @extend %orientation;
+
+    padding: 30px;
+  }
+  // Question
+  &__question {
+    @extend %orientation;
+    @extend %size;
+    @extend %size-second;
+    &--bg{
+      @include bg($color-primary);
+    }
+    &__title{
+      @extend %title;
+      color: $color-body;
+      font-size: 3vw;
+    }
+    &__btn{
+      width: 20vw;
+      font-size: 1.8vw;
+      @extend %title;
+      color: $color-gray;
+    }
+  }
+  @extend %orientation;
+}
+
+
